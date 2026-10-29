@@ -1,0 +1,22 @@
+{
+  "name": "seance",
+  "version": "0.1.0",
+  "description": "Summon the ghost of COBOL in your terminal. Runs 100% locally on Ollama + Gemma.",
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "engines": {
+    "node": ">=18.17"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "tsx": "^4.20.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "typescript": "^5.9.3"
+  }
+}
